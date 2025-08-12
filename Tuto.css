@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #452323;
+    text-align: center;
+    padding: "20px;
+}
+
+h1 {
+    color: #6b6565;
+}
+
+.boutons {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(180, 93, 97);
+    cursor: pointer;
+}
+
+#bouton-add {
+    background-color: #272a28; 
+}
+
+#bouton-modif {
+    background-color: #07eeff; 
+    color: black;
+}
+
+#bouton-enreg {
+    background-color: #007bff; 
+}
+
+.enreg-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.enreg-container select {
+    margin-left: 5px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.zone-texte {
+    margin-top: 30px;
+}
+
+#champ-saisie {
+    padding: 8px;
+    width: 200px;
+}
+
+#btn-envoyer {
+    background-color: #124e57; /* cyan */
+}
